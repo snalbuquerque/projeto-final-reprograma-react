@@ -1,12 +1,8 @@
-
+import Rotas from './routes/Rotas'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        
-      </header>
-    </div>
+    <Rotas/>
   );
 }
 

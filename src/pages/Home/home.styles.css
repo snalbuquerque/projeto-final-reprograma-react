@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400&display=swap');
+
+
+.title{
+  font-family: 'Luxurious Script', cursive;
+  text-align: center;
+  color: #c0a890	;
+  font-size: 10rem;
+}
+
+.text {
+    text-align:left;
+    margin: 1rem 1rem;
+    font-size: 1rem;
+    color: #ffffff;
+    margin-left: 0.5vw;
+    font-family: 'Lora', serif;
+  }
+
+
+body{
+  background-image: url(../../assets/imagem-paginas.jpg);
+}
