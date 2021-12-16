@@ -8,12 +8,43 @@
   
   .title {
     color: #604830	;
-    margin-left: 25vw;
+    margin-left: 40vw;
     font-size: 8vh;
+  }
+
+  .container-header{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+  }
+
+  .text{
+    color: #786048		;
+
   }
   
   .header img {
    width: 45vw;
    height: 45vh;
-   margin-right: 60vw;
+  }
+
+  @media(max-width: 768px){
+    .header {
+      display: flex;
+      flex-direction: column;
+    }
+    .title{
+      margin: auto;
+      font-size: 6vh;
+    }
+    .header img{
+      width: 50vw;
+      height: 50vh;
+      margin-right: 45vw;
+     
+    }
+    .text{
+      margin: auto;
+    }
   }

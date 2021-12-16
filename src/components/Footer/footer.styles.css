@@ -1,16 +1,16 @@
 .footer {
     background-color: rgb(56, 56, 56);
-    color: white;
+    color: #d8c0a8	;
     text-align: center;
-    height: 4vw;
-    left: 0;
-    bottom: 0;
+    height: 7vh;
+  
     width: 100%;
-    padding-top: 1vh;
+    padding-top: 0.50vh;
     
     
   }
 
   span{
     font: 2vw ;
+    
   }

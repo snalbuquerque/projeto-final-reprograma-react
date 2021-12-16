@@ -21,7 +21,7 @@ const Livros = () =>{
     return(
         <>
         <Menu/>
-        <Header image={BooksImage}>Sugestões de livros</Header>
+        <Header image={BooksImage} title="Sugestões de livros">Aqui abaixo segue indicações de livros que são referências para este estilo:</Header>
         <div className="main-livros">
             <div className="card-container-livros" >
             {books.map(item=>

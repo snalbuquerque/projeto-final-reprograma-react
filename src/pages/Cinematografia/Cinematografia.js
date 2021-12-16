@@ -23,7 +23,8 @@ const Cinematografia = () => {
     return(
         <>
         <Menu/>
-        <Header image={ImageCine}>Pronto pra maratonar?</Header>
+        <Header image={ImageCine} title="Pronto pra maratonar?">Uma pequena lista com filmes e séries que se tornaram referências para esta estética:
+        </Header>
         <div className="main">
             <div className="card-container" >
             {cine.map(item=>
