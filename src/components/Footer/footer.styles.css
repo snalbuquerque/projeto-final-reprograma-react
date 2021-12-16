@@ -2,8 +2,8 @@
     background-color: rgb(56, 56, 56);
     color: #d8c0a8	;
     text-align: center;
-    height: 7vh;
-  
+    height: 3.4rem;
+    box-shadow: 0 0 6px 4px rgba(7, 0, 0, 0.2);
     width: 100%;
     padding-top: 0.50vh;
     

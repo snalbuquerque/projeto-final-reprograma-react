@@ -34,7 +34,7 @@ const Cinematografia = () => {
                 <img src={item.capa} alt={item.titulo} />
               </div>
             )}
-            </div>
+          </div>
       </div>
         <Footer/>
         </>
