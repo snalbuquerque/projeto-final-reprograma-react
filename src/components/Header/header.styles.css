@@ -31,7 +31,7 @@
   }
 
   @media(max-width: 768px){
-    .header {
+    .container-header {
       display: flex;
       flex-direction: column;
     }
@@ -40,9 +40,8 @@
       font-size: 6vh;
     }
     .header img{
-      width: 50vw;
-      height: 50vh;
-      margin-right: 45vw;
+      width: 22rem;
+      height: 22rem;
      
     }
     .text{

@@ -11,6 +11,18 @@
   }
 
   span{
-    font: 2vw ;
+    font: 2vh ;
     
+  }
+
+  @media(max-width: 768px){
+    .footer {
+      background-color: rgb(56, 56, 56);
+      color: #d8c0a8	;
+      text-align: center;
+      height: 4vh;
+      width: 100%;
+      
+    }
+  
   }
