@@ -1,18 +1,19 @@
 .header {
-    padding: 80px;
+    padding: 5vh;
     text-align: center;
     color: white;
-    background-color: #EEBCA1;
     background-size: cover;
     height: 500px;
   }
   
-  .tittle {
-    font-size: 40px;
+  .title {
+    color: #604830	;
+    margin-left: 25vw;
+    font-size: 8vh;
   }
   
   .header img {
-    margin-top: 10px;
-    width: 2vw;
-    height: 2vh;
+   width: 45vw;
+   height: 45vh;
+   margin-right: 60vw;
   }
