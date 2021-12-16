@@ -1,0 +1,23 @@
+.card-container-livros {
+    margin: 1rem 1rem 1rem 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    width: 80%;
+    align-items:center ;
+  }
+  
+  .card-livros {
+    height: 70vh;
+    width: 300px50bw;
+    background-color: #786048	;
+    border-radius: 4px;
+    color: white;
+    padding: 0.5rem;
+  }
+
+.card-container-livros img{
+    width: 20vw;
+    height: 60vh;
+}

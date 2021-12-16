@@ -22,10 +22,10 @@ const Livros = () =>{
         <>
         <Menu/>
         <Header image={BooksImage}>Sugestões de livros</Header>
-        <div className="main">
-            <div className="card-container" >
+        <div className="main-livros">
+            <div className="card-container-livros" >
             {books.map(item=>
-              <div className="card">
+              <div className="card-livros">
                 <h3 key={item.id}>{item.titulo}</h3>
                 <p>autor(a): {item.autor}</p>
                 <img src={item.capa} alt={item.titulo} />
