@@ -2,10 +2,15 @@
     background-color: rgb(56, 56, 56);
     color: white;
     text-align: center;
-    height: 50px;
+    height: 4vw;
     left: 0;
     bottom: 0;
     width: 100%;
-    padding-top: 10px;
+    padding-top: 1vh;
     
+    
+  }
+
+  span{
+    font: 2vw ;
   }
