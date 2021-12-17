@@ -29,8 +29,8 @@ const Cinematografia = () => {
             <div className="card-container" >
             {cine.map(item=>
               <div className="card">
-                <h3 key={item.id}>{item.titulo}</h3>
-                <p>{item.tipo}</p>
+                <h3 key={item.id} className="titulo-card">{item.titulo}</h3>
+                <p className="tipo">{item.tipo}</p>
                 <img src={item.capa} alt={item.titulo} />
               </div>
             )}
