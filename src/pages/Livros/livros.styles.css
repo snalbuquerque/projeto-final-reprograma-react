@@ -8,13 +8,13 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 30px;
-    width: 80%;
+    width: 90%;
     align-items:center ;
   }
   
   .card-livros {
-    height: 70vh;
-    width: 21vw;
+    height: 40vh;
+    width: 33vw;
     background-color: #786048	;
     border-radius: 4px;
     color: white;
@@ -24,6 +24,6 @@
   }
 
 .card-container-livros img{
-    width: 20vw;
-    height: 60vh;
+    width: 28vw;
+    height: 30vh;
 }

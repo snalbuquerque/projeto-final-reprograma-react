@@ -26,8 +26,8 @@ const Livros = () =>{
             <div className="card-container-livros" >
             {books.map(item=>
               <div className="card-livros">
-                <h3 key={item.id}>{item.titulo}</h3>
-                <p>autor(a): {item.autor}</p>
+                <h3 key={item.id} className="titulo-card">{item.titulo}</h3>
+                <p className="tipo">autor(a): {item.autor}</p>
                 <img src={item.capa} alt={item.titulo} />
               </div>
             )}
