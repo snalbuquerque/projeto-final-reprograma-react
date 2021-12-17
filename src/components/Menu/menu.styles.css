@@ -1,7 +1,7 @@
 
 .navbar {
     display: flex;
-    justify-content: space-evenly;
+    justify-content:space-around;
     background: #a86048	;
     font-size: 24px;
     padding: 20px;

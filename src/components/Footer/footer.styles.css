@@ -3,7 +3,6 @@
     color: #d8c0a8	;
     text-align: center;
     height: 3.4rem;
-    box-shadow: 0 0 6px 4px rgba(7, 0, 0, 0.2);
     width: 100%;
     padding-top: 0.50vh;
     
@@ -17,12 +16,13 @@
 
   @media(max-width: 768px){
     .footer {
-      background-color: rgb(56, 56, 56);
       color: #d8c0a8	;
       text-align: center;
-      height: 4vh;
+      height: 2rem;
       width: 100%;
-      
+      bottom: 0;
+      left: 0;
+      ;
     }
   
   }
