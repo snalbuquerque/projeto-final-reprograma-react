@@ -34,7 +34,7 @@
     .container-header {
       display: flex;
       flex-direction: column;
-      height: 35rem;
+      height: 33rem;
     }
     .title{
       margin: auto;
