@@ -15,7 +15,7 @@
     
   }
 
-  @media(max-width: 768px){
+  @media(max-width: 760px){
     .footer {
       height: 2rem;
       margin-top: 150px

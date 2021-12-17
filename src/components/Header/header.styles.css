@@ -30,7 +30,7 @@
    height: 45vh;
   }
 
-  @media(max-width: 768px){
+  @media(max-width: 760px){
     .container-header {
       display: flex;
       flex-direction: column;
